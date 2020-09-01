@@ -1,0 +1,6 @@
+@media only screen and (min-width: 1170px)
+.vertical-timeline-element {
+    margin-left: 0;
+    padding: 1.5em;
+    width: 45%
+}

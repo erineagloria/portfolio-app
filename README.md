@@ -1,68 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SEI Project 4: 
+## <website name>
 
-## Available Scripts
+Visit <a href="">website name</a>
 
-In the project directory, you can run:
+*You can login as GA, password: pudding*
 
-### `npm start`
+<img src="" alt="project-4-final-homepage">
+ 
+I've built a client event database targeted towards an events company's return clients to assist them in keeping track of the events they have hosted the event company over the years. I've leaned into my events and sales experience to create this app. Even though a company may have hosted events with us in the past, the main contact/event organiser may have changed over the years resulting in a loss of valuable information, client notes and feedback. 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Project Summary 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Loopd is a full Ruby CRUD application, complete with a login feature using bcrypt, user sessions, images added via Cloudinary API and a PSQL database with two tables joined togeter. 
 
-### `npm test`
+## Technologies used:
+* Whimsical (used to make the wireframe)
+* Trello (used to make to-do lists)
+* HTML5
+* CSS
+* Ruby
+* PostgreSQL
+* Sinatra
+* Heroku (to host my website)
+* BCrypt (password encryption)
+* Cloudinary API (to create the logo and add images)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## App Features:
 
-### `npm run build`
+loopd is built for existing clients. Upon loading the website the user will be asked to enter their login details(company name & password) right away. The app is designed so that a client will be provided login details from the business, they will not be able to sign up for an account. 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Below the login details there is a feed of previous events that have taken place for inspiration. When the images are when clicked it will give a few event details. The client will be anonymous of course!
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Upon logging in, the user will have access to their dashboard with a record of their events listed in order with the latest/upcoming events at the top and the oldest events at the bottom. Clients can submit and delete a request to host a new event. They can update details of their upcoming events. They can also add notes/feedback to previous events; however, all other details will be locked. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The app will allow them to draw inspiration from other clients' events and keep a record of their events with our business. 
 
-### `npm run eject`
+## Planning Process
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Screenshots of the planning process
+*include wireframes, trello/asana, routing map? *
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="" alt="home-page-design">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<img src="" alt="company-page-design">
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<img src="" alt="to-do-list">
 
-## Learn More
+<img src="" alt="routing-table">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Improvements:
+* 
+*  
+* 
+* 
