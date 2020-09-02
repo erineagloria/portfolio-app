@@ -8,8 +8,8 @@ export default class Header extends Component {
         return (
             <div className="nav-container">
                 <article className="nav-logo" onClick={() => scroll.scrollToTop()}>
-                    <a href="#home" >
-                        <img src="http://placekitten.com/40/40" alt="logo"/>
+                    <a href="#home"><p className="name">Erinea</p>
+                    {/* <img className="nav-logo" src="https://i.pinimg.com/originals/91/57/37/9157378329df8904b56c6049ef42f5f4.jpg" alt="logo"/> */}
                     </a>
                 </article>
                 <nav className="nav-content">

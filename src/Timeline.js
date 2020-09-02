@@ -18,7 +18,7 @@ export default class Timeline extends Component {
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon="H"
                     >
-                        <h3 className="vertical-timeline-element-title">General Assembly</h3>
+                        <h3 className="vertical-timeline-element-title">ABOUT ME</h3>
                         <h4 className="vertical-timeline-element-subtitle">Melbourne, Australia</h4>
                         <p>
                         Completed a Software Engineering Immersive Course
@@ -33,7 +33,7 @@ export default class Timeline extends Component {
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon="H"
                     >
-                        <h3 className="vertical-timeline-element-title">The Big Group | Sales Manager</h3>
+                        <h3 className="vertical-timeline-element-title">WORK</h3>
                         <h4 className="vertical-timeline-element-subtitle">Melbourne, Australia</h4>
                         <p>Sales Manager – Corporate Events and Conferencing</p>
                         <p>Venues - Mural Hall, Luminare, Glasshouse and Ormond Collective</p>
@@ -47,7 +47,7 @@ export default class Timeline extends Component {
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             icon="H"
                     >
-                        <h3 className="vertical-timeline-element-title">Web Designer</h3>
+                        <h3 className="vertical-timeline-element-title">SCHOOL</h3>
                         <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
                         <p>
                         User Experience, Visual Design
@@ -62,7 +62,7 @@ export default class Timeline extends Component {
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon="H"
                     >
-                        <h3 className="vertical-timeline-element-title">Web Designer</h3>
+                        <h3 className="vertical-timeline-element-title">HOBBIES</h3>
                         <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
                         <p>
                         User Experience, Visual Design
@@ -77,7 +77,7 @@ export default class Timeline extends Component {
                         iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                         icon="H"
                     >
-                        <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
+                        <h3 className="vertical-timeline-element-title">INTERESTS</h3>
                         <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
                         <p>
                         Creative Direction, Visual Design
