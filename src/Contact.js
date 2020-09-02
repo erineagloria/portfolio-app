@@ -1,4 +1,8 @@
 import React, { Component } from 'react'
+import {
+    BrowserRouter as Router,
+    Link
+  } from 'react-router-dom'
 import './Contact.css'
 
 export default class Contact extends Component {
@@ -19,21 +23,21 @@ export default class Contact extends Component {
 
     render() {
         return (
-            <div className="contact-container" id="contact">
-                <h2>Contact</h2>
-                <br/>
-                <br/>
-                <br/>
-                <form className="contact-form" onSubmit={this.handleSubmit} action="">
-                    <input type="text" placeholder="Full Name"/>
-                    <input type="text" placeholder="Email"/>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                    <button>Send Your Message</button>
-                </form>
-                <br/>
-                <br/>
-                <br/>
-            </div>
+            <Router>
+                <div className="contact-container" id="contact">
+                    <h2>Contact</h2>
+                    <p>Find me on<a href="#" target="_blank" className="links" rel="noopener noreferrer"> LinkedIn</a></p>
+                    <p>Check out my code on<a href="#" target="_blank" className="links" rel="noopener noreferrer"> Github</a></p>
+                    <p>Soon to be blogging on<a href="#" target="_blank" className="links" rel="noopener noreferrer"> Medium</a> (coming soon!)</p>
+
+                    <button>
+                        <Link to="/resume_draft_1.pdf" target="_blank" rel="noopener noreferrer" download>Download My Resume</Link>
+                    </button>
+                
+                    <h4>Say Hello</h4>
+                    <h1>Let's do something interesting <br/><a href="#" target="_blank" className="links" rel="noopener noreferrer">hello@erineagloria@gmail.com</a> </h1>
+                </div>
+            </Router>
         )
     }
 }

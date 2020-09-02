@@ -1,12 +1,12 @@
 .nav-container {
-	background-color: lightgrey;
+	background-color: #FFE433;
 	display: flex;
-    position: fixed;
+	position: fixed;
 }
 
 .nav-container .nav-logo {
-	padding: 0.5rem 2rem;
-	background: lightgrey;
+	padding: 0.5rem 0.5rem;
+	background: #FFE433;
 }
 
 .nav-container nav ul {

@@ -7,7 +7,7 @@ export default class Footer extends Component {
         return (
             <div className="footer-container">
                 <footer>
-                    <span>Made with <span id="heart-emoji">💜</span> and <span id="coffee-emoji">☕</span></span>
+                    <span>Made with <span id="heart-emoji" aria-label="love" role="img"> 💜 </span> and <span id="coffee-emoji" aria-label="coffee" role="img"> ☕ </span></span>
                     <br/>
                     <span>&copy; Erinea Gloria 2020. All rights reserved.</span>
                 </footer>

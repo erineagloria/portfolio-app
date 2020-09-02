@@ -9,7 +9,7 @@ export default class Timeline extends Component {
         return (
             <div className="timeline">
                 
-                <VerticalTimeline>
+                <VerticalTimeline >
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'rgb(255, 255, 255)', color: '#000000' }}
@@ -66,36 +66,6 @@ export default class Timeline extends Component {
                         <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
                         <p>
                         User Experience, Visual Design
-                        </p>
-                    </VerticalTimelineElement>
-
-                    <VerticalTimelineElement
-                        className="vertical-timeline-element--education"
-                        contentStyle={{ background: 'rgb(255, 255, 255)', color: '#000000' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                        date="September 2020"
-                        iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                        icon="H"
-                    >
-                        <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-                        <p>
-                        Strategy, Social Media
-                        </p>
-                    </VerticalTimelineElement>
-
-                    <VerticalTimelineElement
-                        className="vertical-timeline-element--education"
-                        contentStyle={{ background: 'rgb(255, 255, 255)', color: '#000000' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                        date="November 2012"
-                        iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                        icon="H"
-                    >
-                        <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-                        <p>
-                        Creative Direction, User Experience, Visual Design
                         </p>
                     </VerticalTimelineElement>
 
