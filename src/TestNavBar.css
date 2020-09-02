@@ -1,0 +1,41 @@
+.menu {
+    display: none;
+  }
+
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .main-nav li {
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    background-color: rgb(228, 112, 83);
+  }
+
+  @media only screen and (max-width: 375px) {
+    .main-nav .menu {
+      cursor: pointer;
+      display: block;
+      font-size: 2rem;
+    }
+
+    .main-nav ul {
+      flex-direction: column;
+      transform-origin: top;
+      transition: 0.5s;
+      opacity: 1;
+    }
+
+    .main-nav li {
+      border: 1px solid black;
+      padding: 1rem;
+    }
+
+    .main-nav .updown {
+      transform: scaleY(0);
+      opacity: 0;
+    }
+  }

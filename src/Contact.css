@@ -1,3 +1,30 @@
 .contact-container {
     background-color: #FFE433;
+    padding: 1rem;
+}
+
+.contact-container .resume {
+    background-color: #FFE433;
+    border-color: white;
+}
+.contact-container .say-hello {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    
+}
+
+.contact-container .links {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.contact-container .call-to-action {
+    margin-top: 0;
+}
+.contact-container .email {
+    color: black;
+    text-decoration: none;
 }

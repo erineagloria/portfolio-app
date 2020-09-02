@@ -1,3 +1,12 @@
 .about-page {
     background-color: #FFE433;
+    padding: 1rem;
+}
+
+.about-page .nutshell {
+    font-weight: bold;
+}
+
+.about-page .nutshell-text {
+    font-style: italic;
 }

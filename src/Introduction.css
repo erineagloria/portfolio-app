@@ -1,3 +1,21 @@
 .intro-content {
     background-color: #FFE433;
+    padding: 1rem;
+
+}
+
+.intro-content .welcome-en {
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intro-content .welcome-fr {
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro-content .name {
+    margin-bottom: 0;
+}
+.intro-content .phonetics {
+    font-style: italic;
 }

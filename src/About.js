@@ -9,10 +9,10 @@ export default class About extends Component {
             <div className="about-page" id="about">
                 <div>
                 <h2>About</h2>
-                <span className="nutshell">Me, in a nutshell: blah blah blah...... </span>
+                <span className="nutshell">Me, in a nutshell:</span><span className="nutshell-text"> Travelling ✈ 🧳, Fitness, Schitt's Creek, and Chocolate is ALWAYS the answer 🍫</span>
 
-                <p>Who am I? TBC if I will put a few lines to summarise who I am... </p>
-                
+                <br/>
+                <br/>
                 <Timeline />
                 </div>
             </div>

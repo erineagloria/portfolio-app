@@ -7,10 +7,11 @@ export default class Introduction extends Component {
         return (
             <div>
                 <div className="intro-content">
-                    <h4>Welcome // Bienvenue</h4>
-                    <h1>Hi, I'm Erinea</h1>
-                    <span>(air-a-ney-yah)</span>
-
+                    <br/>
+                    <br/>
+                    <h4 className="welcome-en">Welcome</h4><h4 className="welcome-fr">Bienvenue //</h4>
+                    <h1 className="name">Hi, I'm Erinea</h1>
+                    {/* <span className="phonetics">/air-a-ney-yah/</span> */}
                     <h3>Software Developer</h3>
 
                     <p>One line summary about me......</p>

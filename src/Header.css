@@ -2,6 +2,9 @@
 	background-color: #FFE433;
 	display: flex;
 	position: fixed;
+	justify-content: space-between;
+	width: 90%;
+	padding: 1rem;
 }
 
 .nav-container .nav-logo {
@@ -13,18 +16,49 @@
 	display: flex;
 	list-style: none;
 	justify-content: space-between;
-	padding: 0.5rem 1rem;
+	padding: 0.5rem 0.5rem;
 }
 
 .nav-container nav li {
-	padding: 0.5rem 2rem;
+	padding: 0.5rem 0.5rem;
 	content: '';
 	color: black;
 	font-weight: bold;
 	font-size: 15px;
 	position: relative;
-	/* width: 10px;
-	height: 10px; */
+}
+
+@media only screen and (max-width: 375px) {
+	.nav-container {
+		display: flex;
+		width: 70%;
+		height: 40px;
+	}
+	.nav-content .menu {
+	  cursor: pointer;
+	  display: block;
+	  font-size: 1.5rem;
+	  margin-top: 0.5rem;
+	}
+
+	.nav-content ul {
+	  flex-direction: column;
+	  transform-origin: top;
+	  transition: 0.5s;
+	  opacity: 1;
+	}
+
+	.nav-content li {
+	  border: 1px solid white;
+	  /* padding: 0.5rem; */
+	  text-align: center;
+	}
+
+	.nav-content .updown {
+	  transform: scaleY(0);
+	  opacity: 0;
+	}
+
 }
 
 /* .nav-container nav li > .active {

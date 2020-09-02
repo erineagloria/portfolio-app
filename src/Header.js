@@ -9,10 +9,13 @@ export default class Header extends Component {
             <div className="nav-container">
                 <article className="nav-logo" onClick={() => scroll.scrollToTop()}>
                     <a href="#home" >
-                        <img src="http://placekitten.com/100/100" alt="logo"/>
+                        <img src="http://placekitten.com/40/40" alt="logo"/>
                     </a>
                 </article>
                 <nav className="nav-content">
+                    <span className="material-icons menu" onClick={() => {
+                        var navList = document.querySelector('.nav-content ul')
+                        return navList.classList.toggle('updown')}}>menu</span>
                     <ul className="nav-items">
                         <li>
                             <Link 

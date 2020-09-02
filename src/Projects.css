@@ -1,4 +1,20 @@
 .projects-container {
     /* background-color: lightskyblue; */
     background-color: #fff;
+    padding: 1rem;
+}
+
+.project-content .project-img {
+    width: 340px;
+    border-radius: 1rem;
+    height: 200px;
+    margin-bottom: 15px;
+
+}
+
+.project-content .project-text {
+    padding: 0.5rem;
+    border: 2px solid #F3322B;
+    border-radius: 1rem;
+    margin-bottom: 15px;
 }
