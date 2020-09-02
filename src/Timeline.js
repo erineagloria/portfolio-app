@@ -21,7 +21,7 @@ export default class Timeline extends Component {
                         <h3 className="vertical-timeline-element-title">ABOUT ME</h3>
                         <h4 className="vertical-timeline-element-subtitle">Melbourne, Australia</h4>
                         <p>
-                        Completed a Software Engineering Immersive Course
+                        I'm an aspiring Full-Stack Software Developer.
                         </p>
                     </VerticalTimelineElement>
 
@@ -35,8 +35,7 @@ export default class Timeline extends Component {
                     >
                         <h3 className="vertical-timeline-element-title">WORK</h3>
                         <h4 className="vertical-timeline-element-subtitle">Melbourne, Australia</h4>
-                        <p>Sales Manager – Corporate Events and Conferencing</p>
-                        <p>Venues - Mural Hall, Luminare, Glasshouse and Ormond Collective</p>
+                        <p>I have a background in event management and sales. Having worked for The Big Group for the last six years I have been fortunate enough to be part of a team that's created f%!$ off AMAZING parties and events! </p>
                     </VerticalTimelineElement>
 
                     <VerticalTimelineElement
@@ -48,9 +47,9 @@ export default class Timeline extends Component {
                             icon="H"
                     >
                         <h3 className="vertical-timeline-element-title">SCHOOL</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+                        <h4 className="vertical-timeline-element-subtitle">Toronto, Canada & Melbourne, Australia</h4>
                         <p>
-                        User Experience, Visual Design
+                        
                         </p>
                     </VerticalTimelineElement>
 

@@ -21,8 +21,8 @@ export default class Contact extends Component {
                     </button>
                 
                     <p className="say-hello">Say Hello</p>
-                    <h1 className="call-to-action">Let's do something <br/>interesting <br/>
-                    <a href="mailto:hello@erineagloria.com" className="email">hello@erineagloria.com</a> </h1>
+                    <h2 className="call-to-action">Let's do something <br/>interesting <br/>
+                    <a href="mailto:hello@erineagloria.com" className="email">hello@erineagloria.com</a> </h2>
                 </div>
             </Router>
         )

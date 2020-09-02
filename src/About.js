@@ -9,8 +9,7 @@ export default class About extends Component {
             <div className="about-page" id="about">
                 <div>
                 <h2>About</h2>
-                <span className="nutshell">Me, in a nutshell:</span><span className="nutshell-text"> Travelling <span role="img" aria-label="plane">✈</span><span role="img" aria-label="suitcase">🧳</span>, Fitness, Schitt's Creek, and Chocolate is ALWAYS the answer <span role="img" aria-label="chocolate">🍫</span></span>
-
+                <span className="nutshell">Me, in a nutshell:</span><span className="nutshell-text"> Yoga <span role="img" aria-label="yoga-emoji">🧘‍♀️</span>, Travelling <span role="img" aria-label="plane-emoji">✈</span><span role="img" aria-label="suitcase-emoji">🧳</span>, Schitt's Creek <span role="img" aria-label="tv-emoji">📺</span>, and when in doubt chocolate is ALWAYS the answer <span role="img" aria-label="chocolate-emoji">🍫</span></span>
                 <br/>
                 <br/>
                 <Timeline />
