@@ -19,6 +19,8 @@ export default class Contact extends Component {
                     <button>
                         <Link to="./resume_draft_1.pdf" target="_blank" rel="noopener noreferrer" className="resume" download>Download My Resume</Link>
                     </button>
+{/* 
+                    <button><a href="resume_draft_1.pdf" download="resume_draft_1.pdf">Download My Resume</a></button> */}
                 
                     <p className="say-hello">Say Hello</p>
                     <h2 className="call-to-action">Let's do something <br/>interesting <br/>
@@ -28,4 +30,3 @@ export default class Contact extends Component {
         )
     }
 }
- 

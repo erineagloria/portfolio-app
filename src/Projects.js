@@ -9,7 +9,7 @@ export default class Projects extends Component {
                 <h2 className="component-title">Projects</h2>
 
                 <div className="project-content three">
-                    <a href="https://floating-cliffs-04957.herokuapp.com/index.html" target="_blank" rel="noopener noreferrer"><img src="https://github.com/ajsaule/The-Happy-Path/blob/master/images/final_product_1.png?raw=true" alt="project-three-design" srcset="" className="project-img"/>
+                    <a href="https://floating-cliffs-04957.herokuapp.com/index.html" target="_blank" rel="noopener noreferrer"><img src="https://github.com/ajsaule/The-Happy-Path/blob/master/images/final_product_1.png?raw=true" alt="project-three-design" className="project-img"/>
                     </a>
                     <div className="project-text">
                         <h3 className="project-title">The Happy Path</h3>
@@ -22,7 +22,7 @@ export default class Projects extends Component {
                     </div>
                 </div>
                 <div className="project-content two">
-                    <a href="https://boiling-temple-92123.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="https://github.com/erineagloria/project_2/raw/master/Loopd%20Final%20Design.png?raw=true" alt="project-two-design" srcset="" className="project-img"/>
+                    <a href="https://boiling-temple-92123.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="https://github.com/erineagloria/project_2/raw/master/Loopd%20Final%20Design.png?raw=true" alt="project-two-design" className="project-img"/>
                     </a>
                     <div className="project-text">
                         <h3 className="project-title">loopd</h3>
@@ -35,7 +35,7 @@ export default class Projects extends Component {
                     </div>
                 </div>
                 <div className="project-content one">
-                    <a href="https://erineagloria.github.io/tic-tac-toe/" target="_blank" rel="noopener noreferrer"><img src="https://github.com/erineagloria/tic-tac-toe/blob/master/Tic-Tac-Toe.png?raw=true" alt="project-one-design" srcset="" className="project-img"/>
+                    <a href="https://erineagloria.github.io/tic-tac-toe/" target="_blank" rel="noopener noreferrer"><img src="https://github.com/erineagloria/tic-tac-toe/blob/master/Tic-Tac-Toe.png?raw=true" alt="project-one-design" className="project-img"/>
                     </a>
                     <div className="project-text">
                         <h3 className="project-title">Tic-Tac-Toe</h3>
