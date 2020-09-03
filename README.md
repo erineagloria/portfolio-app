@@ -42,11 +42,11 @@ The app will allow them to draw inspiration from other clients' events and keep 
 
 #### Screenshots of the planning process
 
-<img src="" alt="planning process - to do lists">
+<img src="https://github.com/erineagloria/portfolio-app/blob/master/Planning%20Board%20.png?raw=true" alt="planning process - to do lists">
 
-<img src="" alt="wireframe - home and about page">
+<img src="https://github.com/erineagloria/portfolio-app/blob/master/Wireframe%20%7C%20Home%20and%20About%20Page.png?raw=true" alt="wireframe - home and about page">
 
-<img src="" alt="wireframe - project and contact page">
+<img src="https://github.com/erineagloria/portfolio-app/blob/master/Wireframe%20%7C%20Project%20and%20Contact%20Page.png?raw=true" alt="wireframe - project and contact page">
 
 ### Improvements:
 * Add details to the 'About' section
