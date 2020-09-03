@@ -1,6 +1,7 @@
 .projects-container {
     background-color: #fff;
     margin-left: 1rem;
+    margin-top: 110px;
 }
 
 .project-content .project-img {
@@ -11,6 +12,13 @@
 
 }
 
+.projects-container .component-title {
+    margin-top: 110px;
+}
+
+.three {
+    margin-top: 110px
+}
 button {
    background-color: #fff;
    border-radius: 0.25rem;
@@ -36,13 +44,15 @@ button:hover {
 
     .projects-container {
         margin-left: 3rem;
+        font-size: 1.25rem;
+        margin-top: 110px;
     }
+
     .project-content {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
         margin-bottom: 5rem;
-
     }
 
     .project-content .project-img {

@@ -4,6 +4,10 @@
     padding: 1rem;
 }
 
+.about-page .component-title {
+    margin-top: 70px;
+}
+
 .about-page .nutshell {
     font-weight: bold;
 }
@@ -17,4 +21,5 @@
       padding: 3rem;
       font-size: 1.25rem;
     }
+
 }

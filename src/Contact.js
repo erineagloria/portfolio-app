@@ -11,16 +11,15 @@ export default class Contact extends Component {
         return (
             <Router>
                 <div className="contact-container" id="contact">
-                    <h2>Contact</h2>
+                    <h2 className="component-title">Contact</h2>
+
                     <p>I'd love to connect with you over coffee or zoom.</p>
                     <p>Find me on <a href="https://www.linkedin.com/in/erinea-gloria/" target="_blank" className="links" rel="noopener noreferrer">LinkedIn.</a></p>
                     <p>Check out my code on <a href="https://github.com/erineagloria" target="_blank" className="links" rel="noopener noreferrer">Github</a> and my blogging skills on <a href="https://medium.com/@erineagloria" target="_blank" className="links" rel="noopener noreferrer">Medium.</a></p>
 
                     <button>
-                        <Link to="./resume_draft_1.pdf" target="_blank" rel="noopener noreferrer" className="resume" download>Download My Resume</Link>
+                        <Link to="resume.png" target="_blank" rel="noopener noreferrer" className="resume" download>Download My Resume</Link>
                     </button>
-{/* 
-                    <button><a href="resume_draft_1.pdf" download="resume_draft_1.pdf">Download My Resume</a></button> */}
                 
                     <p className="say-hello">Say Hello</p>
                     <h2 className="call-to-action">Let's do something <br/>interesting <br/>

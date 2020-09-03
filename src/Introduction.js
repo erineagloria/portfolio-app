@@ -10,7 +10,7 @@ export default class Introduction extends Component {
                     <br/>
                     <br/>
                     <h4 className="welcome-en">Welcome</h4><h4 className="welcome-fr">Bienvenue //</h4>
-                    <h1 className="name">Hi, <br/> I'm Erinea Gloria</h1>
+                    <h1 className="name">Hi, I'm Erinea</h1>
                     {/* <span className="phonetics">/air-a-ney-yah/</span> */}
                     <h3>Software Developer</h3>
 
