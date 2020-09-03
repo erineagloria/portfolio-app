@@ -22,14 +22,20 @@
 button {
    background-color: #fff;
    border-radius: 0.25rem;
-}
-
-button:hover {
-    background-color: lightskyblue;
+   border: 1px solid #e23e57;
 }
 .project-code {
     text-decoration: none;
-    color: black;
+    color: #e23e57;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #e23e57;
+}
+
+button .project-code:hover {
+    color: white;
 }
 
 .project-content .project-text {

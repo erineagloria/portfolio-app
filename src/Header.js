@@ -38,7 +38,7 @@ export default class Header extends Component {
                                 offset={-70}
                                 duration={1000}
                                 aria-label={`Scroll to about section`}
-                            >About
+                            >ABOUT
                             </Link>
                         </li>
                         <li>
@@ -52,7 +52,7 @@ export default class Header extends Component {
                                 offset={-70}
                                 duration={1000} 
                                 aria-label={`Scroll to projects section`}
-                            >Projects
+                            >PROJECTS
                             </Link>
                         </li>
                         <li>
@@ -66,7 +66,7 @@ export default class Header extends Component {
                                 offset={-70}
                                 duration={1000}
                                 aria-label={`Scroll to contact section`}
-                            >Contact
+                            >CONTACT
                             </Link>  
                         </li>                
                     </ul>

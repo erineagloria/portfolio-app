@@ -7,6 +7,8 @@ Visit <a href="http://www.erineagloria.com/">My Portfolio Website</a>
  
 For my final project I decided to make my own portfolio website. 
 
+This is a front-end application - no back end was required. 
+
 ## Project Summary 
 
 My portfolio website is made in React.JS......

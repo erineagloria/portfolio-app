@@ -17,7 +17,7 @@ export default class Projects extends Component {
                         <p className="project-tech-stack">Group project built using: JavaScript, Ruby on Rails (Active Record), CSS, HTML, PostgreSQL, Sinatra, Mircosoft Text Analysis API and Tasty Food API.</p>
                         <p className="project-login">Login as erinea@ga.co, password: 123456</p>
                         <button>
-                            <a href="https://github.com/ajsaule/The-Happy-Path" target="_blank" rel="noopener noreferrer" className="project-code">View My Code</a>
+                            <a href="https://github.com/ajsaule/The-Happy-Path" target="_blank" rel="noopener noreferrer" className="project-code">VIEW MY CODE</a>
                         </button>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ export default class Projects extends Component {
                         <p className="project-tech-stack">loopd is a full Ruby CRUD application, complete with a login feature using bcrypt, user sessions, images added via Cloudinary API and a PostgreSQL database with two tables joined togeter.</p>
                         <p className="project-login">Login as GA, password: pudding</p>
                         <button>
-                            <a href="https://github.com/erineagloria/project_2" target="_blank" rel="noopener noreferrer" className="project-code">View My Code</a>
+                            <a href="https://github.com/erineagloria/project_2" target="_blank" rel="noopener noreferrer" className="project-code">VIEW MY CODE</a>
                         </button>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ export default class Projects extends Component {
                         <p className="project-tech-stack">Built using: JavaScript, HTML, and CSS</p>
                         <p className="project-login">No login details required.</p>
                         <button>
-                            <a href="https://github.com/erineagloria/tic-tac-toe" target="_blank" rel="noopener noreferrer" className="project-code">View My Code</a>
+                            <a href="https://github.com/erineagloria/tic-tac-toe" target="_blank" rel="noopener noreferrer" className="project-code">VIEW MY CODE</a>
                         </button>
                     </div>
                 </div>

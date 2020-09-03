@@ -18,7 +18,7 @@ export default class Contact extends Component {
                     <p>Check out my code on <a href="https://github.com/erineagloria" target="_blank" className="links" rel="noopener noreferrer">Github</a> and my blogging skills on <a href="https://medium.com/@erineagloria" target="_blank" className="links" rel="noopener noreferrer">Medium.</a></p>
 
                     <button>
-                        <Link to="resume.png" target="_blank" rel="noopener noreferrer" className="resume" download>Download My Resume</Link>
+                        <Link to="resume.png" target="_blank" rel="noopener noreferrer" className="resume" download>DOWNLOAD MY RESUME</Link>
                     </button>
                 
                     <p className="say-hello">Say Hello</p>

@@ -13,7 +13,7 @@ export default class Timeline extends Component {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'rgb(255, 255, 255)', color: '#000000' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                        contentArrowStyle={{ borderRight: '7px solid  rgb(136,48,78)' }}
                         date="June 2020 - September 2020"
                         iconStyle={{ background: '#88304e', color: '#fff' }}
                     >
@@ -27,7 +27,7 @@ export default class Timeline extends Component {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'rgb(255, 255, 255)', color: '#000000' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                        contentArrowStyle={{ borderRight: '7px solid  rgb(136,48,78)' }}
                         date="2018 - 2020"
                         iconStyle={{ background: '#88304e', color: '#fff' }}
                     >
@@ -39,7 +39,7 @@ export default class Timeline extends Component {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'rgb(255, 255, 255)', color: '#000000' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                        contentArrowStyle={{ borderRight: '7px solid  rgb(136,48,78)' }}
                         date="2008 - 2010"
                         iconStyle={{ background: '#88304e', color: '#fff' }}
                     >
@@ -54,33 +54,29 @@ export default class Timeline extends Component {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'rgb(255, 255, 255)', color: '#000000' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                        contentArrowStyle={{ borderRight: '7px solid  rgb(136,48,78)' }}
                         date="2006 - 2008"
                         iconStyle={{ background: '#88304e', color: '#fff' }}
                     >
                         <h3 className="vertical-timeline-element-title">HOBBIES</h3>
-                        <h4 className="vertical-timeline-element-subtitle"></h4>
-                        <p>
                         <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima deserunt inventore consectetur magnam, recusandae quod aut animi nostrum sapiente numquam, accusantium mollitia dolorum omnis repellendus autem suscipit laborum sequi. Sunt!
                         </p>
-                        </p>
+
                     </VerticalTimelineElement>
 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
                         contentStyle={{ background: 'rgb(255, 255, 255)', color: '#000000' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                        contentArrowStyle={{ borderRight: '7px solid  rgb(136,48,78)' }}
                         date="2002 - 2006"
                         iconStyle={{ background: '#88304e', color: '#fff' }}
                     >
                         <h3 className="vertical-timeline-element-title">INTERESTS</h3>
-                        <h4 className="vertical-timeline-element-subtitle"></h4>
-                        <p>
                         <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima deserunt inventore consectetur magnam, recusandae quod aut animi nostrum sapiente numquam, accusantium mollitia dolorum omnis repellendus autem suscipit laborum sequi. Sunt!
                         </p>
-                        </p>
+
                     </VerticalTimelineElement>
 
                 </VerticalTimeline>

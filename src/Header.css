@@ -1,6 +1,7 @@
 .nav-container {
 	background-color: white;
 	display: flex;
+	justify-content: space-between;
 	position: fixed;
 	width: 100%;
 	padding: 1rem; 
@@ -8,7 +9,11 @@
 }
 .nav-content .menu {
 	display: none;
-  }
+}
+
+.nav-content ul {
+	margin-right: 3rem;
+}
 
 .nav-container .nav-logo {
 	padding: 0.5rem 0.5rem;
@@ -22,7 +27,7 @@
 }
 
 .nav-container .nav-item {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .fa-home {
@@ -33,18 +38,17 @@
 .nav-container nav ul {
 	display: flex;
 	list-style: none;
-	justify-content: space-between;
 	padding: 0.5rem 0.5rem;
 }
 
 .nav-container nav li {
 	padding: 0.5rem 0.5rem;
-	content: '';
 	color: black;
 	font-weight: bold;
 	font-size: 15px;
 	position: relative;
 }
+
 
 @media only screen and (max-width: 375px) {
 	.nav-container {
@@ -72,12 +76,14 @@
 	  transition: 0.5s;
 	  padding: 0.5rem;
 	  opacity: 1;
-	  background-color: #FFE433;
+	  background-color: white;
 	}
 
 	.nav-content li {
-	  border: 1px solid white;
+	  border: 1px solid #e23e57;
 	  text-align: center;
+	  border-radius: 0.25rem;
+	  margin: 2px;
 	}
 
 	.nav-content .updown {
