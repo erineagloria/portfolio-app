@@ -1,5 +1,6 @@
 .intro-content {
-    background-color: #FFE433;
+    /* background-color: #FFE433; */
+    background-color: #fff;
     padding: 1rem;
 
 }
@@ -18,4 +19,13 @@
 }
 .intro-content .phonetics {
     font-style: italic;
+}
+
+  
+@media screen and (min-width: 600px) {
+    .intro-content {
+        padding: 3rem;
+        font-size: 1.25rem;
+    }
+
 }

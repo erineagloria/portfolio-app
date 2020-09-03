@@ -8,7 +8,7 @@ export default class Header extends Component {
         return (
             <div className="nav-container">
                 <article className="nav-logo" onClick={() => scroll.scrollToTop()}>
-                    <a href="#home"><i class="fas fa-home"></i>
+                    <a href="#home"><i className="fas fa-home"></i>
                     </a>
                 </article>
                 <nav className="nav-content">

@@ -1,5 +1,6 @@
 .about-page {
-    background-color: #FFE433;
+    /* background-color: #FFE433; */
+    background-color: grey;
     padding: 1rem;
 }
 
@@ -9,4 +10,11 @@
 
 .about-page .nutshell-text {
     font-style: italic;
+}
+
+@media screen and (min-width: 600px) {
+    .about-page {
+      padding: 3rem;
+      font-size: 1.25rem;
+    }
 }
