@@ -9,7 +9,13 @@
 
 .nav-container .nav-logo {
 	padding: 0.5rem 0.5rem;
+	margin-left: 1rem;
 	background: #FFE433;
+	font-size: 36px; 
+}
+
+.fa-home {
+	color: grey;
 }
 
 .nav-container nav ul {
@@ -63,11 +69,13 @@
 	  opacity: 0;
 	}
 
+	.nav-container .nav-logo {
+		padding: 0.25rem 0.25rem;
+		margin-left: 0;
+		font-size: 24px; 
+	}
+	
 }
-
-/* .nav-container nav li > .active {
-	border-bottom: 1px solid #333;
-} */
 
 /* .nav-container nav li:before, .nav-container nav li:after {
 	content: '';

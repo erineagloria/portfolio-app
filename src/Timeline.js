@@ -16,7 +16,6 @@ export default class Timeline extends Component {
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="June 2020 - September 2020"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        icon="H"
                     >
                         <h3 className="vertical-timeline-element-title">ABOUT ME</h3>
                         <h4 className="vertical-timeline-element-subtitle">Melbourne, Australia</h4>
@@ -31,7 +30,6 @@ export default class Timeline extends Component {
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="2018 - 2020"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        icon="H"
                     >
                         <h3 className="vertical-timeline-element-title">WORK</h3>
                         <h4 className="vertical-timeline-element-subtitle">Melbourne, Australia</h4>
@@ -44,7 +42,6 @@ export default class Timeline extends Component {
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="2008 - 2010"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            icon="H"
                     >
                         <h3 className="vertical-timeline-element-title">SCHOOL</h3>
                         <h4 className="vertical-timeline-element-subtitle">Toronto, Canada & Melbourne, Australia</h4>
@@ -59,7 +56,6 @@ export default class Timeline extends Component {
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="2006 - 2008"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        icon="H"
                     >
                         <h3 className="vertical-timeline-element-title">HOBBIES</h3>
                         <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
@@ -74,7 +70,6 @@ export default class Timeline extends Component {
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="2002 - 2006"
                         iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                        icon="H"
                     >
                         <h3 className="vertical-timeline-element-title">INTERESTS</h3>
                         <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
