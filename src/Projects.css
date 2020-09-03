@@ -6,10 +6,10 @@
 
 .project-content .project-img {
     width: 340px;
-    border-radius: 1rem;
     height: 200px;
+    border-radius: 1rem;
     margin-bottom: 15px;
-
+    box-shadow: 8px 8px 16px lightgrey;
 }
 
 .projects-container .component-title {
@@ -31,7 +31,8 @@ button {
 }
 
 button:hover {
-    background-color: #e23e57;
+    /* background-color: #e23e57; */
+    background-image: linear-gradient(whitesmoke, #e23e57);
 }
 
 button .project-code:hover {
@@ -40,8 +41,6 @@ button .project-code:hover {
 
 .project-content .project-text {
     padding: 0rem 0.5rem;
-    /* border: 2px solid lightskyblue; 
-    border-radius: 1rem; */
     margin-bottom: 5rem;
     margin-right: 1rem;
 }
@@ -52,19 +51,22 @@ button .project-code:hover {
         margin-left: 3rem;
         font-size: 1.25rem;
         margin-top: 110px;
+        padding: 0 8rem;
     }
 
     .project-content {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        gap: 1.5rem;
         margin-bottom: 5rem;
     }
 
     .project-content .project-img {
-        width: 640px;
+        /* width: 640px; */
         border-radius: 1rem;
-        height: 400px;
+        width: 32rem;
+        height: 24rem;
+        /* height: 400px; */
     }
 
     .project-content .project-text {

@@ -1,5 +1,4 @@
 .about-page {
-    /* background-color: #FFE433; */
     background-color: whitesmoke;
     padding: 1rem;
 }
@@ -18,7 +17,7 @@
 
 @media screen and (min-width: 600px) {
     .about-page {
-      padding: 3rem;
+      padding: 8rem;
       font-size: 1.25rem;
     }
 

@@ -6,6 +6,8 @@
 	width: 100%;
 	padding: 1rem; 
 	z-index:1;
+	border-bottom: 1px solid;
+	box-shadow: 8px 8px 12px gainsboro;
 }
 .nav-content .menu {
 	display: none;
@@ -49,6 +51,23 @@
 	position: relative;
 }
 
+.nav-container nav li:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #000000;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  .nav-container nav li:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
 
 @media only screen and (max-width: 375px) {
 	.nav-container {
@@ -66,9 +85,9 @@
 	  font-size: 3rem;
 	}
 
-	/* .nav-container nav ul {
-		display: none;
-	} */
+	.nav-container nav li:after { 
+		background: white;
+	}
 
 	.nav-content ul {
 	  flex-direction: row;

@@ -1,6 +1,4 @@
 .contact-container {
-    /* background-color: #FFE433; */
-    background-color: #fff;
     padding: 1rem;
     margin-bottom: 8rem;
 }
@@ -76,7 +74,7 @@ button .resume:hover {
         font-size: 3rem;
       }
       .contact-container {
-          padding: 3rem;
+          padding: 8rem;
           font-size: 1.25rem;
       }
       button {
