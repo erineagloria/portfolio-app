@@ -8,7 +8,7 @@
     font-style: italic;
 }
 
-.intro-content .tracking-in-expand {
+.tracking-in-expand {
 	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
@@ -68,7 +68,7 @@
 
 .intro-content .links {
     text-decoration: none;
-    color: #DC143C;
+    color: #e23e57;
 }
   
 @media screen and (min-width: 600px) {

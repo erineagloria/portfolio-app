@@ -9,18 +9,18 @@ export default class Timeline extends Component {
         return (
             <div className="timeline">
                 
-                <VerticalTimeline >
+                <VerticalTimeline className="timeline">
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'rgb(255, 255, 255)', color: '#000000' }}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="June 2020 - September 2020"
-                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        iconStyle={{ background: '#88304e', color: '#fff' }}
                     >
                         <h3 className="vertical-timeline-element-title">ABOUT ME</h3>
                         <h4 className="vertical-timeline-element-subtitle">Melbourne, Australia</h4>
                         <p>
-                        I'm an aspiring Full-Stack Software Developer.
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima deserunt inventore consectetur magnam, recusandae quod aut animi nostrum sapiente numquam, accusantium mollitia dolorum omnis repellendus autem suscipit laborum sequi. Sunt!
                         </p>
                     </VerticalTimelineElement>
 
@@ -29,7 +29,7 @@ export default class Timeline extends Component {
                         contentStyle={{ background: 'rgb(255, 255, 255)', color: '#000000' }}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="2018 - 2020"
-                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        iconStyle={{ background: '#88304e', color: '#fff' }}
                     >
                         <h3 className="vertical-timeline-element-title">WORK</h3>
                         <h4 className="vertical-timeline-element-subtitle">Melbourne, Australia</h4>
@@ -41,13 +41,14 @@ export default class Timeline extends Component {
                         contentStyle={{ background: 'rgb(255, 255, 255)', color: '#000000' }}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="2008 - 2010"
-                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        iconStyle={{ background: '#88304e', color: '#fff' }}
                     >
                         <h3 className="vertical-timeline-element-title">SCHOOL</h3>
                         <h4 className="vertical-timeline-element-subtitle">Toronto, Canada & Melbourne, Australia</h4>
                         <p>
-                        
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima deserunt inventore consectetur magnam, recusandae quod aut animi nostrum sapiente numquam, accusantium mollitia dolorum omnis repellendus autem suscipit laborum sequi. Sunt!
                         </p>
+
                     </VerticalTimelineElement>
 
                     <VerticalTimelineElement
@@ -55,12 +56,14 @@ export default class Timeline extends Component {
                         contentStyle={{ background: 'rgb(255, 255, 255)', color: '#000000' }}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="2006 - 2008"
-                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        iconStyle={{ background: '#88304e', color: '#fff' }}
                     >
                         <h3 className="vertical-timeline-element-title">HOBBIES</h3>
-                        <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+                        <h4 className="vertical-timeline-element-subtitle"></h4>
                         <p>
-                        User Experience, Visual Design
+                        <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima deserunt inventore consectetur magnam, recusandae quod aut animi nostrum sapiente numquam, accusantium mollitia dolorum omnis repellendus autem suscipit laborum sequi. Sunt!
+                        </p>
                         </p>
                     </VerticalTimelineElement>
 
@@ -69,12 +72,14 @@ export default class Timeline extends Component {
                         contentStyle={{ background: 'rgb(255, 255, 255)', color: '#000000' }}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="2002 - 2006"
-                        iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                        iconStyle={{ background: '#88304e', color: '#fff' }}
                     >
                         <h3 className="vertical-timeline-element-title">INTERESTS</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
+                        <h4 className="vertical-timeline-element-subtitle"></h4>
                         <p>
-                        Creative Direction, Visual Design
+                        <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima deserunt inventore consectetur magnam, recusandae quod aut animi nostrum sapiente numquam, accusantium mollitia dolorum omnis repellendus autem suscipit laborum sequi. Sunt!
+                        </p>
                         </p>
                     </VerticalTimelineElement>
 

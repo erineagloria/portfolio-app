@@ -1,5 +1,5 @@
 .nav-container {
-	background-color: #FFE433;
+	background-color: white;
 	display: flex;
 	position: fixed;
 	width: 100%;
@@ -13,7 +13,7 @@
 .nav-container .nav-logo {
 	padding: 0.5rem 0.5rem;
 	margin-left: 1rem;
-	background: #FFE433;
+	background: white;
 	font-size: 36px; 
 }
 

@@ -1,31 +1,34 @@
 # SEI Project 4: 
 ## <website name>
 
-Visit <a href="">website name</a>
-
-*You can login as GA, password: pudding*
+Visit <a href="http://www.erineagloria.com/">My Portfolio Website</a>
 
 <img src="" alt="project-4-final-homepage">
  
-I've built a client event database targeted towards an events company's return clients to assist them in keeping track of the events they have hosted the event company over the years. I've leaned into my events and sales experience to create this app. Even though a company may have hosted events with us in the past, the main contact/event organiser may have changed over the years resulting in a loss of valuable information, client notes and feedback. 
+For my final project I decided to make my own portfolio website. 
 
 ## Project Summary 
 
-Loopd is a full Ruby CRUD application, complete with a login feature using bcrypt, user sessions, images added via Cloudinary API and a PSQL database with two tables joined togeter. 
+My portfolio website is made in React.JS......
 
 ## Technologies used:
-* Whimsical (used to make the wireframe)
-* Trello (used to make to-do lists)
+* Whimsical (mobile first wireframes)
+* Asana (to make to-do lists)
+* React.JS 
+* JavaScript
+* React Router 
+* React-Scroll, 
+* React-Spring (animation)
+* Material-UI
+* React Vertical Timline
+* Material.IO
 * HTML5
 * CSS
-* Ruby
-* PostgreSQL
-* Sinatra
-* Heroku (to host my website)
-* BCrypt (password encryption)
-* Cloudinary API (to create the logo and add images)
+* Surge.sh (to host my website)
 
 ## App Features:
+
+** Need to change below - still text from old project ** 
 
 loopd is built for existing clients. Upon loading the website the user will be asked to enter their login details(company name & password) right away. The app is designed so that a client will be provided login details from the business, they will not be able to sign up for an account. 
 
@@ -38,18 +41,16 @@ The app will allow them to draw inspiration from other clients' events and keep 
 ## Planning Process
 
 #### Screenshots of the planning process
-*include wireframes, trello/asana, routing map? *
 
-<img src="" alt="home-page-design">
+<img src="" alt="planning process - to do lists">
 
-<img src="" alt="company-page-design">
+<img src="" alt="wireframe - home and about page">
 
-<img src="" alt="to-do-list">
-
-<img src="" alt="routing-table">
+<img src="" alt="wireframe - project and contact page">
 
 ### Improvements:
-* 
-*  
-* 
-* 
+* Add details to the 'About' section
+* Revise the size of the project images so that the bigger the page, the smaller the gap between the project and text
+* Once finalised, update my pdf resume
+* Revise the nav bar so that it does not cut off the headings of each component
+* Incorporate React Spring to flip the background of my introduction page 
