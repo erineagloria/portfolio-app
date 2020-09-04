@@ -23,6 +23,8 @@ button {
    background-color: #fff;
    border-radius: 0.25rem;
    border: 1px solid #e23e57;
+   font-size: 0.75rem;
+   padding: 0.5rem;
 }
 .project-code {
     text-decoration: none;
