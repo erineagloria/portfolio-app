@@ -1,12 +1,18 @@
 .intro-content {
     /* background-image: url("https://images.unsplash.com/photo-1490735891913-40897cdaafd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"); */
-    background-image: linear-gradient(white, #f5d7e3);
+    background-image: url("https://images.unsplash.com/photo-1552056972-b7627d200b88?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: linear-gradient(white, #f5d7e3); */
     background-color: #fff;
     padding: 1rem;
-
+    color: black;
+    padding-top: 0rem;
+    padding-bottom: 12rem;
 }
-.nickname {
-    font-style: italic;
+
+.find-me {
+    margin-bottom: 0rem;
 }
 
 .tracking-in-expand {
@@ -69,14 +75,19 @@
 
 .intro-content .links {
     text-decoration: none;
-    color: #e23e57;
+    color: black;
+    /* color: #e23e57; */
 }
   
 @media screen and (min-width: 600px) {
     .intro-content {
         padding: 8rem;
-        padding-bottom: 6rem;
-        font-size: 1.25rem;
+        padding-top: 0rem;
+        padding-bottom: 12rem;
+        font-size: 2rem;   
     }
 
+    .find-me {
+        margin-top: 0rem;
+    }
 }
