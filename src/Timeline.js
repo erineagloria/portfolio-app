@@ -20,7 +20,7 @@ export default class Timeline extends Component {
                         <h3 className="vertical-timeline-element-title">ABOUT ME</h3>
                         <h4 className="vertical-timeline-element-subtitle">Melbourne, Australia</h4>
                         <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima deserunt inventore consectetur magnam, recusandae quod aut animi nostrum sapiente numquam, accusantium mollitia dolorum omnis repellendus autem suscipit laborum sequi. Sunt!
+                        Throughout my experience in the events and hospitality industry, I have witnessed first hand the power and the importance of having strong customer relationship management tools. My search for more efficient systems ignited my interest in software development and ultimately set in motion my career change into software engineering. Combining my events experience, my human-centered approach, my growth mindset, and the skills I have acquired throughout my coding journey my goal is to contribute to making purpose-driven user-friendly software.
                         </p>
                     </VerticalTimelineElement>
 
