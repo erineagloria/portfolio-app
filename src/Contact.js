@@ -18,11 +18,12 @@ export default class Contact extends Component {
                     <p>Check out my code on <a href="https://github.com/erineagloria" target="_blank" className="links" rel="noopener noreferrer">Github</a> and my blogging skills on <a href="https://medium.com/@erineagloria" target="_blank" className="links" rel="noopener noreferrer">Medium.</a></p>
 
                     <button>
-                        <Link to="resume.png" target="_blank" rel="noopener noreferrer" className="resume" download>DOWNLOAD MY RESUME</Link>
+                        <a href="https://resume.io/r/Qf9AD5oSb"
+                        target="_blank" rel="noopener noreferrer" className="resume" download>VIEW MY RESUME</a>
                     </button>
 
                     <button>
-                        <a href="Erinea_Gloria_Resume.pdf"
+                        <a href="https://resume.io/r/Qf9AD5oSb/download.pdf"
                         target="_blank" rel="noopener noreferrer" className="resume" download>DOWNLOAD MY RESUME</a>
                     </button>
 
