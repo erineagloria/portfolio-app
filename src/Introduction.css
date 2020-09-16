@@ -1,13 +1,12 @@
 .intro-content {
-    /* background-image: url("https://images.unsplash.com/photo-1552056972-b7627d200b88?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"); */
-    /* background-repeat: no-repeat;
-    background-size: cover; */
-    /* background-image: linear-gradient(white, #f5d7e3); */
     background-color: #fff;
-    padding: 1rem;
     color: black;
-    padding-top: 0rem;
-    padding-bottom: 12rem;
+    padding: 1rem;
+    /* padding-top: 0rem; */
+    padding-bottom: 6rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
+    /* gap: 2rem; */
 }
 
 .find-me {
@@ -45,7 +44,8 @@
   }
   
 .intro-content .welcome-en {
-    margin-top: 220px;
+    /* margin-top: 220px; */
+    margin-top: 180px;
     margin-bottom: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
@@ -68,16 +68,18 @@
 .intro-content .name {
     margin-bottom: 0;
 }
-.intro-content .phonetics {
-    font-style: italic;
-}
 
-.intro-content .links {
+/* .intro-content .links {
     text-decoration: none;
     color: black;
-    /* color: #e23e57; */
+} */
+
+.profile-photo {
+  border-radius: 50%;
+  width: 300px;
+  margin: 0 auto 10px;
 }
-  
+
 @media screen and (min-width: 600px) {
     .intro-content {
         padding: 8rem;
@@ -86,4 +88,10 @@
         font-size: 2rem;   
     }
 
+    .profile-photo {
+      border-radius: 50%;
+      margin-top: 220px;
+      padding: 1rem;
+      padding-top: 0rem;
+    }
 }
