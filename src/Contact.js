@@ -18,9 +18,14 @@ export default class Contact extends Component {
                     <p>Check out my code on <a href="https://github.com/erineagloria" target="_blank" className="links" rel="noopener noreferrer">Github</a> and my blogging skills on <a href="https://medium.com/@erineagloria" target="_blank" className="links" rel="noopener noreferrer">Medium.</a></p>
 
                     <button>
-                        <Link to="Erinea Gloria - Resume.pdf" target="_blank" rel="noopener noreferrer" className="resume" download>DOWNLOAD MY RESUME</Link>
+                        <Link to="resume.png" target="_blank" rel="noopener noreferrer" className="resume" download>DOWNLOAD MY RESUME</Link>
                     </button>
-                
+
+                    <button>
+                        <a href="Erinea_Gloria_Resume.pdf"
+                        target="_blank" rel="noopener noreferrer" className="resume" download>DOWNLOAD MY RESUME</a>
+                    </button>
+
                     <p className="say-hello">Say Hello</p>
                     <h2 className="call-to-action">Let's do something <br/>interesting <br/>
                     <a href="mailto:hello@erineagloria.com" className="email">hello@erineagloria.com</a> </h2>
