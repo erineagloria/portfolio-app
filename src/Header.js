@@ -2,15 +2,6 @@ import React, { Component } from 'react'
 import { Link, animateScroll as scroll } from 'react-scroll';
 import './Header.css'
 
-// function handleHamburger() {
-//     var navList = document.querySelector('.nav-content ul')
-//     if (navList.style.display === "block") {
-//         navList.style.display = "none";
-//     } else {
-//         navList.style.display = "block";
-//     }
-// }
-
 export default class Header extends Component {
 
     render() {
@@ -21,11 +12,11 @@ export default class Header extends Component {
                     </a>
                 </article>
                 <nav className="nav-content">
-                    <span className="material-icons menu" 
+                    {/* <span className="material-icons menu" 
                         onClick={() => {
                             var navList = document.querySelector('.nav-content ul')
                                 return navList.classList.toggle('updown')}}
-                        >menu</span>
+                        >menu</span> */}
                     <ul className="nav-items">
                         <li>
                             <Link 

@@ -11,10 +11,6 @@
     font-weight: bold;
 }
 
-.about-page .nutshell-text {
-    font-style: italic;
-}
-
 @media screen and (min-width: 600px) {
     .about-page {
       padding: 8rem;
