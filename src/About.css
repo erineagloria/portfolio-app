@@ -1,11 +1,11 @@
 .about-page {
     background-color: whitesmoke;
-    padding: 1rem;
+    padding: 0 1rem 1rem; 
 }
 
-.about-page .component-title {
-    margin-top: 70px;
-}
+/* .about-page .component-title {
+    margin-top: 60px;
+} */
 
 .about-page .nutshell {
     font-weight: bold;

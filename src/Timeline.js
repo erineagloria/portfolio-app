@@ -18,7 +18,7 @@ export default class Timeline extends Component {
                     >
                         <h3 className="vertical-timeline-element-title">WHO AM I?</h3>
                         <p>
-                        I am an emerging Full-Stack Software Developer. At my core, I am a highly motivated problem solver. I enjoy working in Ruby, Python, and front-end frameworks such as React.js.<br/><br/>I hope to create a kind, welcoming, and safe space for all my peers. I love working with passionate and hard-working people, bouncing ideas off one another, and getting our creative juices flowing. 
+                        I am an emerging Full-Stack Software Developer and a graduate of General Assembly's Software Engineering Immersive course. At my core, I am a highly motivated problem solver. I enjoy working in Ruby, Python, and front-end frameworks such as React.js.<br/><br/>I hope to create a kind, welcoming, and safe space for all my peers. I love working with passionate and hard-working people, bouncing ideas off one another, and getting our creative juices flowing. 
                         </p>
                     </VerticalTimelineElement>
 

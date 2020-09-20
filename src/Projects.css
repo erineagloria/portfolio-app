@@ -1,7 +1,7 @@
 .projects-container {
     background-color: #fff;
     margin-left: 1rem;
-    margin-top: 110px;
+    margin-top: 60px;
 }
 
 .project-content .project-img {
@@ -12,13 +12,13 @@
     box-shadow: 8px 8px 16px lightgrey;
 }
 
-.projects-container .component-title {
+/* .projects-container .component-title {
     margin-top: 110px;
-}
+} */
 
-.three {
+/* .three {
     margin-top: 110px
-}
+} */
 button {
    background-color: #fff;
    border-radius: 0.25rem;
@@ -33,7 +33,6 @@ button {
 }
 
 button:hover {
-    /* background-color: #e23e57; */
     background-image: linear-gradient(whitesmoke, #e23e57);
 }
 
@@ -43,7 +42,7 @@ button .project-code:hover {
 
 .project-content .project-text {
     padding: 0rem 0.5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
     margin-right: 1rem;
 }
 

@@ -20,11 +20,11 @@ export default class Contact extends Component {
                         <a href="https://resume.io/r/Qf9AD5oSb"
                         target="_blank" rel="noopener noreferrer" className="resume" download>VIEW MY RESUME</a>
                     </button>
-
+{/* 
                     <button>
                         <a href="https://resume.io/r/Qf9AD5oSb/download.pdf"
                         target="_blank" rel="noopener noreferrer" className="resume" download>DOWNLOAD MY RESUME</a>
-                    </button>
+                    </button> */}
 
                     <p className="say-hello">Say Hello</p>
                     <h2 className="call-to-action">Let's do something <br/>interesting <br/>
