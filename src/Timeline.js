@@ -13,20 +13,20 @@ export default class Timeline extends Component {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'rgb(255, 255, 255)', color: '#000000' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(136,48,78)' }}
-                        iconStyle={{ background: '#88304e', color: '#fff' }}
+                        contentArrowStyle={{ borderRight: '9px solid  #ff7989' }}
+                        iconStyle={{ background: '#e23e57', color: '#fff' }}
                     >
                         <h3 className="vertical-timeline-element-title">WHO AM I?</h3>
                         <p>
-                        I am an emerging Full-Stack Software Developer and a graduate of General Assembly's Software Engineering Immersive course. At my core, I am a highly motivated problem solver. I enjoy working in Ruby, Python, and front-end frameworks such as React.js.<br/><br/>I hope to create a kind, welcoming, and safe space for all my peers. I love working with passionate and hard-working people, bouncing ideas off one another, and getting our creative juices flowing. 
+                        I'm an emerging Full-Stack Software Developer, and a graduate of General Assembly's Software Engineering Immersive course. At my core, I am a highly motivated problem solver. I enjoy working in Ruby, Python, and front-end frameworks such as React.js.<br/><br/>I hope to create a kind, welcoming, and safe space for all my peers. I love working with passionate and hard-working people, bouncing ideas off one another, and getting our creative juices flowing. 
                         </p>
                     </VerticalTimelineElement>
 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
                         contentStyle={{ background: 'rgb(255, 255, 255)', color: '#000000' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(136,48,78)' }}
-                        iconStyle={{ background: '#88304e', color: '#fff' }}
+                        contentArrowStyle={{ borderRight: '9px solid  #ff7989' }}
+                        iconStyle={{ background: '#e23e57', color: '#fff' }}
                     >
                         <h3 className="vertical-timeline-element-title">MY STORY</h3>
                         <p>I am a Sales and Events Manager transitioning into Software Development.<br/><br/>
@@ -38,15 +38,15 @@ export default class Timeline extends Component {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'rgb(255, 255, 255)', color: '#000000' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(136,48,78)' }}
-                        iconStyle={{ background: '#88304e', color: '#fff' }}
+                        contentArrowStyle={{ borderRight: '9px solid  #ff7989' }}
+                        iconStyle={{ background: '#e23e57', color: '#fff' }}
                     >
                         <h3 className="vertical-timeline-element-title">WHAT DO I BELIEVE IN?</h3>
                         <p>
-                        Health is the greatest wealth <br/>
                         Always Something Approach vs. All or Nothing Approach<br/>
                         Reflect - Acknowledge - Move <br/>
                         Creating safe and inclusive spaces <br/>
+                        Health is the greatest wealth <br/>
                         Empowering women with confidence, knowledge and support to pursue a career in tech<br/>
                         </p>
 
@@ -55,8 +55,8 @@ export default class Timeline extends Component {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'rgb(255, 255, 255)', color: '#000000' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(136,48,78)' }}
-                        iconStyle={{ background: '#88304e', color: '#fff' }}
+                        contentArrowStyle={{ borderRight: '9px solid  #ff7989' }}
+                        iconStyle={{ background: '#e23e57', color: '#fff' }}
                     >
                         <h3 className="vertical-timeline-element-title">WHAT INTERESTS ME?</h3>
                         <p>

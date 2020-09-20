@@ -4,7 +4,7 @@
 	justify-content: space-between;
 	position: fixed;
 	width: 100%;
-	padding: 1rem; 
+	padding: 1rem 1rem 0 1rem; 
 	z-index:1;
 	border-bottom: 1px solid;
 	box-shadow: 8px 8px 12px gainsboro;
@@ -29,7 +29,7 @@
 }
 
 .fa-home {
-	color: grey;
+	color: #e23e57;
 	font-size: 3rem;
 }
 
@@ -38,6 +38,7 @@
 	list-style: none;
 	padding: 0.5rem 0.5rem;
 	margin-top: 0;
+	gap: 30px;
 }
 
 .nav-container nav li {
@@ -48,15 +49,21 @@
 	position: relative;
 }
 
+.nav-container nav li .contact {
+	color: #e23e57;
+	/* padding: 0.5rem;
+	border-radius: 0.5rem;
+	border: 1px solid #e23e57; */
+}
+
 .nav-container nav li:after {    
-    background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
     display: block;
     height: 2px;
     left: 50%;
     position: absolute;
-    background: #000000;
+    background: black;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
@@ -82,11 +89,6 @@
 		font-size: 15px;
 		margin-top: 0;
 	}
-	/* .nav-content .menu {
-	  cursor: pointer;
-	  display: block;
-	  font-size: 3rem;
-	} */
 
 	.nav-container nav li:after { 
 		background: white;
@@ -96,10 +98,13 @@
 	  flex-direction: row;
 	  transform-origin: top;
 	  transition: 0.5s;
-	  /* padding: 0.5rem; */
 	  opacity: 1;
-	  /* background-color: white; */
 	}
+
+	.nav-container nav ul {
+		gap: 3px;
+	}
+	
 
 	.nav-content li {
 	  /* border: 1px solid #e23e57; */
@@ -107,11 +112,6 @@
 	  /* border-radius: 0.25rem; */
 	  /* margin: 2px; */
 	}
-
-	/* .nav-content .updown {
-	  transform: scaleY(0);
-	  opacity: 0;
-	} */
 
 	.nav-container .nav-logo {
 		padding: 0.25rem 0.5rem;

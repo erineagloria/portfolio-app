@@ -48,7 +48,7 @@ export default class Header extends Component {
                         </li>
                         <li>
                             <Link 
-                                className="nav-item"
+                                className="nav-item contact"
                                 activeClass="active"
                                 to="contact"
                                 spy={true}
