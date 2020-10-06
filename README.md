@@ -7,7 +7,7 @@ For my final project with General Assembly I decided to make my own portfolio we
 <br>
 The final product is a responsive mobile-first front-end application. A back-end was not required. 
 
-Accessibility on the web is important to me. I have done my best to incorporate accessible features whilst doing my best to showcase my personality and add a touch of my own style.  
+Accessibility on the web is important to me. I have done my best to incorporate accessible features whilst trying to showcase my personality and style on the website. 
 
 ## Technologies used:
 * Whimsical (mobile first wireframes)
