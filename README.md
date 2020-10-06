@@ -43,7 +43,7 @@ Features include:
 * Animations to underline important text (different sections and email)
 * Clickable images to view each project, short descriptions including the tech stack used and login details (if required), links to the code 
 * Link to view & download my latest resume
-* Mailto email feature which links to 'hello@erineagloria.com' (custom email to match the domain name) and redirects to my gmail account
+* Mailto email feature linked to my custom email, which is redirected to my gmail account
 * Secured website (website is hosted on Github pages which includes 'Enforced HTTPS') 
 
 ## Planning Process
