@@ -63,7 +63,7 @@ Features include:
 * ✔ Revise the nav bar so that it does not cut off the headings of each component
 * Incorporate React Spring to flip the background of my introduction page 
 
-### Recommendations to make from the portfolio review session:
+### Recommendations that came out of the portfolio review session (to be implemented in the coming days)
 * Intro/landing page - reduce the size of my nav bar - too much padding
 * Intro/landing page - specify what area of software development I want to work in
 * Intro/landing page - make the image a circle instead of an oval
